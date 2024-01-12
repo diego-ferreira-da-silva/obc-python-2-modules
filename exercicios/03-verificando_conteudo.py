@@ -5,6 +5,6 @@ def check_caracter(string):
   string = rule.search(string)
   return not bool(string)
 
-string = input('Digite sua frase para avaliar:\n')
 
+string = input('Digite sua frase para avaliar:\n')
 print(check_caracter(string))
